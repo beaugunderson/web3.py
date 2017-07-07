@@ -10,7 +10,7 @@ def test_node_property(web3):
     client_name, client_version, platform_name, platform_version = web3.version.node.split('/')
 
     assert client_name in {"Geth", "TestRPC"}
-    assert platform_name in {"darwin", "linux", "linux2", "linux3"}
+    assert platform_name in {"darwin", "linux", "linux2", "linux3", "win32"}
 
 
 def test_network_property(web3):
