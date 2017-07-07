@@ -5,7 +5,6 @@
 #    pip-compile --output-file requirements-dev.txt requirements-dev.in
 #
 bitcoin==1.1.42           # via ethereum
-cffi==1.10.0              # via secp256k1
 click==6.7                # via eth-testrpc
 configparser==3.5.0       # via flake8
 enum34==1.1.6             # via flake8, hypothesis
@@ -31,7 +30,6 @@ pyyaml==3.12              # via ethereum
 repoze.lru==0.6           # via ethereum
 rlp==0.5.1                # via eth-testrpc, ethereum
 scrypt==0.8.0             # via ethereum
-secp256k1-transient==0.11.1
 tox==2.7.0
 virtualenv==15.1.0        # via tox
 werkzeug==0.12.2          # via eth-testrpc
