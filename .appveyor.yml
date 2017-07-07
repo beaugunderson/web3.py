@@ -43,8 +43,8 @@ install:
   - "pip install --disable-pip-version-check --upgrade pip setuptools twine wheel"
   - "pip install --no-deps -r requirements-dev-windows.txt"
 
-# build_script:
-#   - "python setup.py build"
+build_script:
+  - "python setup.py build"
 
 test_script:
   - "py.test"
